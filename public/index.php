@@ -1,7 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gianni
- * Date: 06/10/16
- * Time: 16:34
- */
+include("../src/layout/header.php");
+include("../src/layout/bloc_img.php");
+include("../src/layout/footer.php");
