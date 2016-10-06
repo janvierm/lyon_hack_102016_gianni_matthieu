@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: gianni
- * Date: 06/10/16
- * Time: 16:43
- */
+<footer class="container-fluid">
+        <div class="col-xs-12 col-md-12">
+            <a href="#">Admin</a>
+        </div>
+</footer>
+
+</body>
+</html>
