@@ -1,11 +1,15 @@
 <?php
-// On démarre la session (ceci est indispensable dans toutes les pages de notre section membre)
+
+/**
+ * starting session
+ */
 session_start ();
 
-// On récupère nos variables de session
+/**
+ * getting our session variables
+ */
 if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
 
-    // On teste pour voir si nos variables ont bien été enregistrées
     echo '<html>';
     echo '<head>';
     echo '<title>Page backoffice</title>';
@@ -15,10 +19,11 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
     echo 'Bienvenue !';
     echo '<br />';
 
-    // On affiche un lien pour fermer notre session
+    /**
+     * link to logout
+     */
     echo '<a href="../config/logout.php">Déconnection</a>';
 }
 else {
     echo 'Les variables ne sont pas déclarées.';
 }
-?>
