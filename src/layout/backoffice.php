@@ -12,7 +12,7 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
     echo '</head>';
 
     echo '<body>';
-    echo 'Votre login est '.$_SESSION['login'].' et votre mot de passe est '.$_SESSION['pwd'].'.';
+    echo 'Bienvenue !';
     echo '<br />';
 
     // On affiche un lien pour fermer notre session
