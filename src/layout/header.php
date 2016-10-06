@@ -28,10 +28,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">WCS</a>
-                <div class="navbar-right">
-                    <form action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
-                        <input type="file" name="fichier">
-                        <input type="submit" name="go" value="upload" />
-                    </form>
+                <div class="nav navbar-nav navbar-right">
+                    <div class="row col-xs-offset-8 col-xs-4">
+                        <form action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
+                            <input type="file" name="fichier">
+                            <input type="submit" name="go" value="upload" />
+                        </form>
+                    </div>
                 </div>
             </div>
+        </div>
+    </nav>
