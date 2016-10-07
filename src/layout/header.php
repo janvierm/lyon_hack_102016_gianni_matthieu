@@ -8,6 +8,9 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,10 +31,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">WCS</a>
-                <div class="navbar-right">
-                    <form action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
-                        <input type="file" name="fichier">
-                        <input type="submit" name="go" value="upload" />
-                    </form>
+                <div class="nav navbar-nav navbar-right">
+                    <div class="row col-xs-offset-8 col-xs-4">
+                        <form action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
+                            <input type="file" name="fichier">
+                            <input type="submit" name="go" value="upload" />
+                        </form>
+                    </div>
                 </div>
             </div>
+        </div>
+    </nav>

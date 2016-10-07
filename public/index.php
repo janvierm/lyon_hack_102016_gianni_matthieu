@@ -17,5 +17,7 @@ include("../src/layout/header.php");
 </html>
 
 
-<!--include("../src/layout/bloc_img.php");
-include("../src/layout/footer.php");-->
+
+<?php
+include("../src/layout/bloc_img.php");
+include("../src/layout/footer.php");
