@@ -25,7 +25,7 @@
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <h3>Oh les belles chaussettes !</h3>
-                                <form name="participate" action="../src/config/uploadimg/upload.php" method="post">
+                                <form class="part_form" name="participate" action="../src/config/uploadimg/upload.php" method="post">
                                     Nom :
                                     <input type="text" value="" name="name"/>
                                     <br/>
@@ -40,6 +40,7 @@
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-primary"  data-target=".bd-example-modal-lg">Votez !</button>
                 </div>
 
 
