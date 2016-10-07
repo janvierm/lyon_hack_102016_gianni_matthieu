@@ -23,7 +23,7 @@
                             <li><button type="button" class="btn btn-default">Default</button></li>
                          </ul>
                     </div>
-                    <div class="row col-xs-offset-8 col-xs-4">
+                    <div class="row marow col-xs-offset-8 col-xs-4">
                         <form name="participate" action="../src/config/uploadimg/upload.php" method="post">
                             Nom :
                             <input type="text" value="" name="name"/>
