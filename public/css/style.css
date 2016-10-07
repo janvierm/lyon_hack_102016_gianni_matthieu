@@ -1,9 +1,27 @@
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom:-20px;
+}
+
+/*___________socks______________*/
+
 /* HEADER */
+h1 {
+    text-align: center;
+}
+.logo{
+    width:134px;
+    height:auto;
+}
 
 .navbar {
     background-color: #FF8D1C;
     box-shadow: 0 3px 3px rgba(0,0,0,0.35);
     height: 10vh;
+    border: 0px;;
 }
 
 .btn_part {
@@ -28,34 +46,37 @@
 }
 
 /*_______bloc_img______*/
-/*___________books_hompage______________*/
+
+
 .container_block_books{
     margin-top:20px;
+    margin-bottom: 60px;;
 
 }
 .block_all_img{
-    background-color: white;
+
     padding-bottom: 10px;
     padding-top: 10px;
-    /*border:1px solid black;*/
 }
 
 .block_img{
-    background:linear-gradient( 135deg, #ff8d1c, #ffc16b, #ff8d1c);
-    width: 300px;
-    height: 300px;
+    background:linear-gradient( 135deg, #ff8d1c, #ffa84a, #ff8d1c);
+    width: 290px;
+    height: 290px;
     padding-bottom: 5px;
     padding-top: 5px;
     display:flex;
     justify-content:space-around;
     align-items: center;
     margin-top:10px;
+    border-radius: 5px;
 
 }
 .block_img img{
-    box-shadow: 10px 10px 10px 0px #656565;
+    box-shadow: 5px 5px 15px 0px #353535;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 
 
 }
@@ -70,14 +91,62 @@
 .vote{
     margin-top:15px;
 }
+/*_______backoffice___________*/
+.container_back{
+    background-color: #1b6d85;
+    margin: 20px;;
+}
+
 
 /* FOOTER */
 
-.foo_bg {
-    position: fixed;
-    bottom: 0px;
-    left: 90%;
-    height: 8vh;
+
+.modal-backdrop{
+    position: relative;
 }
+
+footer {
+    color: #ff8d1c;
+    text-align: center;
+    background-color: #ff8d1c;
+    height: 50px;
+    position: absolute; bottom: 0;
+    box-shadow: 0px 0px 15px 0px #656565;
+
+
+}
+.marow{
+    border-radius: 0px;
+}
+.fooText{
+    margin-top: 15px;
+}
+.fooText ul li {
+    margin-top: -5px;
+    list-style-type: none;
+}
+
+
+footer a:hover {
+    cursor: pointer;
+}
+
+
+.fooText a{
+    color: #fffaf4;
+    font-size: 1.3em;
+}
+.fooText a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration: none;
+    color: #50c02d;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 1.8em;
+}
+
 
 

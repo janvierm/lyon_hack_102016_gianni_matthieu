@@ -15,7 +15,8 @@
     <nav class="navbar navbar-default ">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-        <a class="navbar-brand" href="#">WCS</a>
+
+        <a class="navbar-brand" href="#"><img class="logo" src="https://s14.postimg.org/gnitbzscx/KTjxp_A7_Tq.png" alt=""></a>
 
 
                 <div class="row col-xs-offset-10 btn_part" >
@@ -39,6 +40,7 @@
                                 </form>
                             </div>
                         </div>
+
                     </div>
                     <button class="btn btn-primary"  data-target=".bd-example-modal-lg">Votez !</button>
                 </div>
