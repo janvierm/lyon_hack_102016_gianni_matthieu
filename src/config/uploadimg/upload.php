@@ -12,10 +12,12 @@ $first_name = $_POST['first_name'];
 $image_url = $_POST['image_url'];
 
 $mybdd = new \mjgn\Bdd();
-$target = "uploads/".sockets
+
 
 $sql = "INSERT INTO participant_list (name, first_name, image_url, hour, date)
 VALUES ('$name', '$first_name', '$image_url', CURRENT_TIME (), CURRENT_DATE ())";
 $mybdd->execSql($sql);
+
+
 
 header("location: ../../../public/index.php");

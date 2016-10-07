@@ -35,7 +35,7 @@ if (isset($_POST['login']) && isset($_POST['pwd'])) {
         /**
          * redirecting the visitor to the backoffice page
          */
-        header ('location: ../layout/backoffice.php');
+        header ('location: ../../layout/backoffice.php');
     }
     else {
         echo '<body onLoad="alert(\'Membre non reconnu...\')">';
