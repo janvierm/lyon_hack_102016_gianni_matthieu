@@ -4,7 +4,7 @@
 
     require  __DIR__.'/../class/Bdd.php';
     $conn = new \mjgn\Bdd();
-    $conn->execSql("select image_url, title from participant_list order by release_date desc limit 9");
+    $conn->execSql("select image_url, name from participant_list order by hour desc");
 
     ?>
 
