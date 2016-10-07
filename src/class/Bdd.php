@@ -28,7 +28,7 @@ class Bdd
      * Initiate the connection
      */
     public function __construct(){
-        $this->dbConfig = require(__DIR__."../config/logbdd.php");
+        $this->dbConfig = require(__DIR__ . "/../config/config.php");
         $this->dbConnect();
     }
 
@@ -65,4 +65,3 @@ class Bdd
         return $this->result;
     }
 }
-?>
