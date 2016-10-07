@@ -28,6 +28,16 @@ body {
     color: black;
 }
 
+.part_form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.modal-content > h3 {
+    text-align: center;
+}
+
 /*_______bloc_img______*/
 
 
