@@ -9,6 +9,13 @@ body {
 /*___________socks______________*/
 
 /* HEADER */
+h1 {
+    text-align: center;
+}
+.logo{
+    width:134px;
+    height:auto;
+}
 
 .navbar {
     background-color: #FF8D1C;
