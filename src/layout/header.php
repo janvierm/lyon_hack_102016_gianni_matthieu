@@ -12,32 +12,38 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default ">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            </div><a class="navbar-brand" href="#">WCS</a><div>
-                <div class="nav navbar-nav navbar-right">
-                    <div class=" collapse navbar-collapse navHeaderCollapse menu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><button type="button" class="btn btn-default">Default</button></li>
-                            <li><button type="button" class="btn btn-default">Default</button></li>
-                         </ul>
-                    </div>
-                    <div class="row marow col-xs-offset-8 col-xs-4">
-                        <form name="participate" action="../src/config/uploadimg/upload.php" method="post">
-                            Nom :
-                            <input type="text" value="" name="name"/>
-                            <br/>
-                            Prénom :
-                            <input type="text" value="" name="first_name"/>
-                            <br/>
-                            Image :
-                            <input type="file" value="" name="image_url"/>
-                            <br/>
-                            <input type="submit"/>
-                        </form>
+
+        <a class="navbar-brand" href="#">WCS</a>
+
+
+                <div class="row col-xs-offset-10 btn_part" >
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Participez !</button>
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <h3>Oh les belles chaussettes !</h3>
+                                <form name="participate" action="../src/config/uploadimg/upload.php" method="post">
+                                    Nom :
+                                    <input type="text" value="" name="name"/>
+                                    <br/>
+                                    Prénom :
+                                    <input type="text" value="" name="first_name"/>
+                                    <br/>
+                                    Image :
+                                    <input type="file" value="" name="image_url"/>
+                                    <br/>
+                                    <input type="submit"/>
+                                </form>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-        </div>
+
+
     </nav>
