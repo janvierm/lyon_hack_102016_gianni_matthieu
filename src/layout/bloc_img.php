@@ -4,7 +4,9 @@
 
     require  __DIR__.'/../class/Bdd.php';
     $conn = new \mjgn\Bdd();
+
     $conn->execSql("select image_url, name from participant_list order by hour desc");?>
+
 
     <?php while($contest = $conn->getResult()->fetch_assoc()){ ?>
 

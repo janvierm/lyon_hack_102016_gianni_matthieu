@@ -12,12 +12,6 @@
 </head>
 <body>
 
-    <?php
-    if(isset($_POST['go']) && is_uploaded_file($_FILES['fichier']['tmp_name'])){
-        var_dump($_FILES['fichier']['tmp_name']);
-    }
-    ?>
-
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,9 +24,17 @@
                          </ul>
                     </div>
                     <div class="row col-xs-offset-8 col-xs-4">
-                        <form action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
-                            <input type="file" name="fichier">
-                            <input type="submit" name="go" value="upload" />
+                        <form name="participate" action="../src/config/uploadimg/upload.php" method="post">
+                            Nom :
+                            <input type="text" value="" name="name"/>
+                            <br/>
+                            Prénom :
+                            <input type="text" value="" name="first_name"/>
+                            <br/>
+                            Image :
+                            <input type="file" value="" name="image_url"/>
+                            <br/>
+                            <input type="submit"/>
                         </form>
                     </div>
                 </div>

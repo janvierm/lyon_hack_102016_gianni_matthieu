@@ -22,7 +22,7 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
     /**
      * link to logout
      */
-    echo '<a href="../config/logout.php">Déconnection</a>';
+    echo '<a href="../config/logadmin/logoutadmin.php">Déconnection</a>';
 }
 else {
     echo 'Les variables ne sont pas déclarées.';
